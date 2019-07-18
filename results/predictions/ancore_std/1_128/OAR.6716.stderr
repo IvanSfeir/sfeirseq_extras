@@ -1,0 +1,19 @@
+rm: cannot remove '/home/getalp/sfeirj/sfeirseq/checkpoints/*': No such file or directory
+/home/getalp/sfeirj/anaconda3/envs/env_1/lib/python3.7/site-packages/torch/nn/_reduction.py:49: UserWarning: size_average and reduce args will be deprecated, please use reduction='sum' instead.
+  warnings.warn(warning.format(ret))
+/home/getalp/sfeirj/scripts/conlleval/preprocess_for_conlleval_no_df.py:8: ParserWarning: Falling back to the 'python' engine because the 'c' engine does not support regex separators (separators > 1 char and different from '\s+' are interpreted as regex); you can avoid this warning by specifying engine='python'.
+  names=["source","target","prediction"])
+
+0it [00:00, ?it/s]
+648it [00:00, 6464.44it/s]
+1177it [00:00, 6058.73it/s]
+1633it [00:00, 5514.29it/s]
+2069it [00:00, 5108.34it/s]
+2446it [00:00, 4615.37it/s]
+2930it [00:00, 4680.48it/s]
+3336it [00:00, 4402.32it/s]
+3737it [00:00, 4222.74it/s]
+4133it [00:00, 3838.86it/s]
+4510it [00:01, 3817.26it/s]
+4903it [00:01, 3848.13it/s]
+4971it [00:01, 4212.32it/s]
