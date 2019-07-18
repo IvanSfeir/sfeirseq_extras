@@ -1,0 +1,1 @@
+oarsub -l /gpu=1,walltime=100:00:00 ../scripts/waves/run_wave_1.sh

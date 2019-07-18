@@ -1,0 +1,6 @@
+fairseq-preprocess \
+  --trainpref ../data/structured_CoNLL_2012_to_preprocess/train \
+  --validpref ../data/structured_CoNLL_2012_to_preprocess/valid \
+  --testpref ../data/structured_CoNLL_2012_to_preprocess/test \
+  --source-lang input --target-lang label \
+  --destdir maxmentions-bin --output-format raw

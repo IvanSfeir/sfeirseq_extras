@@ -1,0 +1,2 @@
+CUDA_VISIBLE_DEVICES=1 python generate.py maxmention-bin/ --path checkpoints/checkpoint_best.pt
+

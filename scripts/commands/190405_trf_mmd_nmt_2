@@ -1,0 +1,13 @@
+CUDA_VISIBLE_DEVICES=0 fairseq-train maxmentions-bin \
+  -a transformer \
+  --optimizer adam \
+  --lr 0.0007 \
+  --max-update 50000 \
+  -s input -t label \
+  --batch-size 50 \
+  --encoder-layers 2 \
+  --decoder-layers 2 \
+  --encoder-embed-dim 32 \
+  --decoder-embed-dim 32 \
+  --no-save \
+  --validate-interval 3

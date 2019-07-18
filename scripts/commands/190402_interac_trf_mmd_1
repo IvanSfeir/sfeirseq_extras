@@ -1,0 +1,3 @@
+fairseq-interactive maxmentions-bin \
+  --path checkpoints/checkpoint_last.pt \
+  --source-lang input --target-lang label

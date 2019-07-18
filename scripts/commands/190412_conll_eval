@@ -1,0 +1,1 @@
+/home/getalp/sfeirj/scripts/conlleval.pl < /home/getalp/sfeirj/data/test_predictions_for_eval | head
